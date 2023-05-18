@@ -5,7 +5,7 @@ import os
 import re
 import json
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 pattern = r"\bgraph\b"
 
 st.title("Data Agent")
