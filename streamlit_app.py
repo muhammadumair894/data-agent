@@ -5,6 +5,11 @@ import os
 import re
 import json
 
+st.markdown("""
+          <style>
+          footer {visibility: hidden;}
+          </style>""", unsafe_allow_html=True)
+
 with st.sidebar:
        os.environ['OPENAI_API_KEY'] = st.text_input('Your OpenAI API KEY', type="password")
 
