@@ -5,7 +5,10 @@ import os
 import re
 import json
 
-os.environ['OPENAI_API_KEY'] = ''
+with st.sidebar:
+os.environ['OPENAI_API_KEY'] = st.text_input('Your OpenAI API KEY', type="password")
+
+       # openai_api_key = 
 pattern = r"\bgraph\b"
 
 st.title("Data Agent")
