@@ -11,9 +11,9 @@ st.markdown("""
           </style>""", unsafe_allow_html=True)
 
 with st.sidebar:
-       os.environ['OPENAI_API_KEY'] = st.text_input('Your OpenAI API KEY', type="password")
+       #os.environ['OPENAI_API_KEY'] = st.text_input('Your OpenAI API KEY', type="password")
+       set OPENAI_API_KEY  = st.text_input('Your OpenAI API KEY', type="password")
 
-       # openai_api_key = 
 pattern = r"\bgraph\b"
 
 st.title("Data Agent")
