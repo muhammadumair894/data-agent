@@ -1,3 +1,4 @@
 pandas
 openai
-langchain
+llama_index 
+azure-core
