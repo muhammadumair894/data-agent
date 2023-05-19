@@ -12,7 +12,7 @@ st.markdown("""
 
 with st.sidebar:
        #os.environ['OPENAI_API_KEY'] = st.text_input('Your OpenAI API KEY', type="password")
-       OPENAI_API_KEY  = st.text_input('Your OpenAI API KEY', type="password")
+       os.environ['OPENAI_API_KEY']  = st.text_input('Your OpenAI API KEY', type="password")
 
 pattern = r"\bgraph\b"
 
