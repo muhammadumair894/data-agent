@@ -16,7 +16,7 @@ with st.sidebar:
 
 pattern = r"\bgraph\b"
 
-st.title("Data Agent")
+st.title("Data Agent SCD")
 
 file = st.file_uploader("Upload csv file", type=["csv"])
 
