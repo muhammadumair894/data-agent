@@ -17,7 +17,7 @@ with st.sidebar:
 
 pattern = r"\bgraph\b"
 
-st.title("Greenlync Guru")
+st.title("Greenlync Atomcamp")
 
 file = st.file_uploader("Upload csv file", type=["csv"])
 
